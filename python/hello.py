@@ -1,11 +1,8 @@
-#문제
-#두 정수 A와 B를 입력받은 다음, A×B를 출력하는 프로그램을 작성하시오.
+A = int(input())
 
-# A= int(input('number= '))
-# B= int(input('number= '))
+sum = 0
 
-A, B = input().split()
-A = int(A)
-B = int(B)
+for i in range(1, A + 1):
+    sum = sum + i
 
-print(A * B)
+print(sum)
